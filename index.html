@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+
+<body>
+  <main>
+    <header class="top-part">
+      <img class="main-logo" src="images/logo.svg" alt="PING. logo">
+      <h1>We are launching <span class="text-highlight">soon!</span></h1>
+      <p>Subscribe and get notified</p>
+    </header>
+
+    <form novalidate>
+      <div class="email-container">
+        <input class="email-input" placeholder="Your email address..." type="email" id="email-input">
+        <small class="email-input-error-text">Please provide a valid email address</small>
+      </div>
+      <input class="button" type="button" value="Notify Me" id="submit">
+    </form>
+
+    <img class="hero-image" src="images/illustration-dashboard.png" alt="Website with statistics cards">
+
+    <footer>
+      <section class="socials-container">
+        <div class="socials-button"><div class="socials-logo facebook"></div></div>
+        <div class="socials-button"><div class="socials-logo twitter"></div></div>
+        <div class="socials-button"><div class="socials-logo instagram"></div></div>
+      </section>
+
+      <small>&copy; Copyright Ping. All rights reserved.</small>
+    </footer>
+  </main>
+</body>
+
+</html>
